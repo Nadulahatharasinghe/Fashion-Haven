@@ -1,0 +1,144 @@
+
+
+.header {
+  text-align: center;
+}
+
+
+.link {
+        text-decoration: none;
+        font-weight: normal;
+        color: black;
+      }
+    
+      .link.active {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+    
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          background-color: #f5f5f5;
+        }
+        
+        .container {
+          display: flex;
+          justify-content: space-between;
+          padding: 50px;
+          max-width: 1200px;
+          margin: auto;
+        }
+        
+        .left-section {
+          width: 35%;
+          
+
+        }
+    
+        .left-section h1 {
+          font-size: 36px;
+          margin-bottom: 20px;
+          text-decoration: underline;
+
+        }
+    
+        .left-section p {
+          font-size: 16px;
+          line-height: 1.5;
+          margin-bottom: 20px;
+        }
+    
+        .left-section .learn-more-btn {
+          background-color: black;
+          color: white;
+          padding: 10px 20px;
+          text-decoration: none;
+          font-size: 16px;
+          display: inline-block;
+          border: none;
+          cursor: pointer;
+          
+        }
+    
+        .right-section   {
+          width: 60%;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px;
+        }
+    
+        .card  {
+          background-color: white;
+          border: 2px solid #000;
+          padding: 20px;
+          text-align: left;
+          position: relative;
+          
+          
+        }
+    
+        .card h3 {
+          font-size: 18px;
+          margin-bottom: 15px;
+          text-decoration: underline;
+
+        }
+    
+        .card p {
+          font-size: 14px;
+          margin-bottom: 20px;
+          color: #666;
+        }
+    
+        .card a {
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+        }
+    
+        .card a:after {
+          content: '';
+          margin-left: 10px;
+        }
+  
+        .right-section .learn-more-btn {
+          background-color: black;
+          color: white;
+          padding: 10px 20px;
+          text-decoration: none;
+          font-size: 16px;
+          display: inline-block;
+          border: none;
+          cursor: pointer;
+          
+        }
+
+
+        .field {
+          border: 2px solid #ccc;
+          border-radius: 15px; 
+          padding: 20px;
+          background-color: #fff; 
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+          transition: box-shadow 0.3s ease;         
+        }
+
+        .field:hover {
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+      }
+
+      
+      
+.active1
+{
+
+box-shadow: 0px 0px 5px 2px rgba(97, 156, 238, 0.9); 
+transition: box-shadow 0.2s ease-in-out;
+
+}

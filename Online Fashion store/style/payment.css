@@ -1,0 +1,41 @@
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    text-align: center;
+    color: #062750;
+}
+
+h2 {
+    text-align: center;
+    color: #31100b;
+}
+.role {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 5px solid #070d14;
+}
+
+.role h3 {
+    color: #05111e;
+   
+}
+
+ul {
+    list-style-type:none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+

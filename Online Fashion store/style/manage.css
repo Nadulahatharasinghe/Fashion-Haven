@@ -1,0 +1,110 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Button styling */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Edit and Delete buttons */
+td a {
+    padding: 8px 12px;
+    margin-right: 5px;
+    color: #1b0909;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+td a:hover {
+    opacity: 0.8;
+}
+
+a[href*='edit'] {
+    background-color: #094d07;
+}
+
+a[href*='delete'] {
+    background-color: #e74c3c;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 14px;
+    }
+}
+/* General button styling */
+.action-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Edit button styling */
+.edit-button {
+    background-color: #3498db; /* Blue color */
+}
+
+.edit-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Delete button styling */
+.delete-button {
+    background-color: #e74c3c; /* Red color */
+}
+
+.delete-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}

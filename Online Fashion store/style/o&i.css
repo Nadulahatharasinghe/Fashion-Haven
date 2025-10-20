@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.user-area {
+    display: flex;
+    align-items: center;
+}
+
+/***************/
+.btn{
+    margin-right: 20px;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(23, 16, 147);
+    color: white;
+}
+/**/
+
+
+.user-area input[type="search"] {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.account-section {
+    margin: 50px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-info {
+    text-align: center;
+}
+
+.account-info img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.card {
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+

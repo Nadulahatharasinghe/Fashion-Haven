@@ -1,0 +1,63 @@
+.package-details {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.package-details h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.package {
+    border-radius: 20px;
+    display: flex;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.package img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.package-info h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.package-info p {
+    font-size: 14px;
+    color: #666;
+}
+
+.package-status {
+    margin-left: auto;
+    text-align: right;
+}
+
+.package-status p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.package-status button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button.approved {
+    background-color: #1d72b8;
+    color: #fff;
+}
+
+button.processing {
+    background-color: #f39c12;
+    color: #fff;
+}

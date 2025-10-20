@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.form-container {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #b1b1b1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #1d72b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d72b8;
+}
+
+#cid, #phone, #email, #cname, #name{
+    width: 400px;
+    
+    
+    
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+
+}
+
+#b4{
+
+    padding: 10px 15px;
+    background-color: #1d72b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70px;
+}

@@ -1,0 +1,361 @@
+.search-bar{
+  margin-top: 5%;
+}
+
+/* Main Slider */
+.main-slider {
+    position: relative;
+    margin: 20px 0;
+}
+
+.slide {
+    display: none;
+    height: 300px;
+    background-color: #ddd;
+}
+
+.slide.active {
+    display: block;
+    width: 1520px;
+    height: 500px;
+}
+
+.slide-controls button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.categories {
+    text-align: center;
+}
+
+.categories button{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5%;
+    background-color: rgb(177, 177, 243);
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    border: none;
+}
+
+/* Products and Cards */
+.product-item image{
+    width: 5%;
+    height: 5%;
+}
+
+.products, .cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product-item, .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* fashion items */
+.item {
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 10px;
+}
+
+.item-grid a {
+    margin: 5%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.item-card {
+    background-color: rgb(177, 177, 243);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: 1s;
+}
+
+.item-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.item-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.item-card [h2] {
+    font-size: 24px;
+}
+
+.item-card:hover {
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+/*slide*/
+j {
+    margin-top: 4%;
+	position: relative;
+	display: block;
+	width: 1525px;
+	height: 500px;
+	overflow: hidden;
+	border-radius: 5px;
+  align-items: center;
+}
+
+j:before, j:after {
+	content: '<';
+	position: absolute;
+	top: 50%;
+	left: 1rem;
+	z-index: 2;
+	width: 2rem;
+	height: 2rem;
+	background: dodgerblue;
+	color: white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	pointer-events: none;
+}
+
+j:after {
+	content: '>';
+	left: auto;
+	right: 1rem;
+}
+
+/* I haven't found a way for IE and Edge to let me style inputs that way */
+input {
+	appearance: none;
+	-ms-appearance: none;
+	-webkit-appearance: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transform: translateX(100%);
+	transition: transform ease-in-out 400ms;
+	z-index: 1;
+}
+
+input:focus {
+	outline: none;
+}
+
+input:after {
+	content: attr(title);
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	padding: .5rem;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+input:not(checked):before {
+	content: '';
+	position: absolute;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	top: 50%;
+	left: calc(-100% + 1rem);
+}
+
+input:checked:before {
+	display: none;
+	left: 1rem;
+}
+
+input:checked {
+	transform: translateX(0);
+
+	z-index: 0;
+	box-shadow: -5px 10px 20px -15px rgba(0,0,0,1);
+}
+
+input:checked + input:before {
+	left: -3rem;
+}
+
+input:checked + input ~ input:before {
+	display: none;
+}
+
+/*offer*/
+
+.date__box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    border: 4px solid;
+    font-weight: bold;
+    padding: 5px 10px;
+    .date__day{
+      font-size: 22px;
+    }
+  }
+  .blog-card {
+    padding: 30px;
+    position: relative;
+    .date__box {
+      opacity: 0;
+      transform: scale(0.5);
+      transition: 300ms ease-in-out;
+    }
+    .blog-card__background,
+    .card__background--layer{
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .blog-card__background {
+      padding: 15px;
+      background: transparent;
+    }
+    .card__background--wrapper{
+      height: 100%;
+      clip-path: polygon(0 0, 100% 0, 100% 80%, 0 60%);
+      position: relative;
+      overflow: hidden;
+    }
+    .card__background--main{
+      height: 100%;
+      position: relative;
+      transition: 300ms ease-in-out;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card__background--layer {
+      z-index: 0;
+      opacity: 0;
+      background: rgba(#333, 0.9);
+      transition: 300ms ease-in-out;
+    }
+    .blog-card__head {
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .blog-card__info{
+      z-index: 10;
+      background: transparent;
+      padding: 20px 15px;
+      h5 {
+        transition: 300ms ease-in-out;
+      }
+    }
+    &:hover {
+      .date__box{
+        opacity: 1;
+        transform: scale(1);
+      }
+      .card__background--main {
+        transform: scale(1.2) rotate(5deg);
+      }
+      .card__background--layer {
+        opacity: 1;
+      }
+      .blog-card__info{
+        h5{
+          color: primary; 
+        }
+      }
+    }
+  }
+  
+  a.icon-link {
+    color: text-color;
+    transition: 200ms ease-in-out;
+    i {
+      color: primary;
+    }
+    &:hover {
+      color: primary;
+      text-decoration: none;
+    }
+  }
+  
+  .btn {
+    background: rgb(196, 193, 193);
+    color: text-color;
+    font-weight: bold;
+    outline: none;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 0;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0;
+    border: 1px;
+    &:focus {
+      box-shadow: none;
+    }
+    &:hover {
+      background: primary;
+      color: #000000;
+    }
+    &.btn--with-icon {
+      padding-right: 20px;
+      i {
+        padding: 0px 30px 0px 15px;
+        margin-right: 10px;
+        height: 50px;
+        line-height: 50px;
+        vertical-align: bottom;
+        color: rgb(0, 0, 0);
+        background: primary;
+        clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+      }
+    }
+    .btn--only-icon {
+      width: 50px;
+    }
+  }

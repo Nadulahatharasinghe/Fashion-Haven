@@ -1,0 +1,82 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400,500,600,700&display=swap");
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    scroll-padding-top:2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: #fd4646;
+    --text-color:#02ac70;
+    --bg-color: #fff;
+    --container-color:#1e1e2a;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    width: 50%;
+    margin: auto;
+}
+.section {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+.section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.payment-option {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    background-color: #e6f7ff;
+}
+.payment-option input[type="radio"] {
+    margin-right: 10px;
+}
+.payment-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .payment-logo img {
+    margin-right: 5px;
+    width: 48px;
+    height: 48px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.form-section, .summary-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%;
+}
+.summary-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%;
+}

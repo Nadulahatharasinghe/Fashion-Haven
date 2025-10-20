@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.message-section {
+    margin: 2em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 1em;
+    color: #5b9ae3;
+
+}
+
+.message {
+    margin-bottom: 2em;
+}
+
+h3 {
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #3a75ac;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #48a6dc;
+}
+

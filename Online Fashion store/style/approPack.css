@@ -1,0 +1,68 @@
+h2{
+    background-color: white; border: black; border-width: 3px ;
+}
+
+#sec
+{
+
+    margin-top:  30px; border: 30px;
+
+}
+
+p{
+    font-size: larger; padding: 20px;
+
+}
+
+#f1{
+
+    background: linear-gradient(-135deg, #eef6f8,  rgb(144, 186, 251)); border-radius: 20px;
+}
+
+.txt{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.txt1{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+#b1{
+
+    width: 100px; height: 30px;
+}
+
+#b2{
+
+    width: 100px; height: 30px; margin-left: 40px;
+}
+
+#b3{
+
+    width: 120px; height: 40px; margin-bottom: 30px;
+}
+
+label{
+
+    font-size: larger; padding: 20px;
+}
+
+
+#deliveryDate, #receiveDate{
+
+    font-size: 20px;
+
+}
+
+#dp{
+
+    font-size: 15px; padding: 10px;
+}

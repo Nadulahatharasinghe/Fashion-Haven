@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #2a2a2a;
+    font-size: 26px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* About Us Section */
+.about-us {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-description {
+    text-align: left;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.about-description p {
+    margin-bottom: 20px;
+}

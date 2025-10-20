@@ -1,0 +1,70 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout for Edit Review section */
+.layout {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Header for Edit Review */
+.layout h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form input and textarea styling */
+.layout input[type="text"],
+.layout textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Update Button */
+.layout button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.layout button:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .layout {
+        width: 90%;
+    }
+
+    .layout h2 {
+        font-size: 20px;
+    }
+
+    .layout button {
+        font-size: 14px;
+    }
+}

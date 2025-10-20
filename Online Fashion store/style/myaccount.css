@@ -1,0 +1,63 @@
+
+  
+  .account-container {
+    background-color: rgb(116, 165, 225);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .account-info {
+    margin-bottom: 20px;
+  }
+  
+  .info-item {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.logout-btn {
+    background-color: #f44336;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+ 

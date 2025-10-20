@@ -1,0 +1,138 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for comments */
+.comments {
+    width: 70%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Header styling for the comments section */
+.comments h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Comment container */
+.comment_container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Top section of each comment (Full name display) */
+.top {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Bottom section of each comment (Comment content) */
+.bottom {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Button container */
+.buttondel {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Button Styling */
+.buttondel button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttondel button:hover {
+    background-color: #2980b9;
+}
+
+/* Layout for Add Review section */
+.layout {
+    width: 70%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Header for Add Review */
+.layout h4 {
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Form input and textarea styling */
+.layout input[type="text"], .layout textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Button for submitting a review */
+.layout button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.layout button:hover {
+    background-color: #2980b9;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .comments, .layout {
+        width: 90%;
+    }
+
+    .comments h2, .layout h4 {
+        font-size: 20px;
+    }
+
+    .top {
+        font-size: 16px;
+    }
+
+    .bottom {
+        font-size: 14px;
+    }
+
+    .layout button {
+        font-size: 14px;
+    }
+}
