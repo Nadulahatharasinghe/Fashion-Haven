@@ -1,4 +1,4 @@
-# Online Fashion Store
+# Fashion Haven
 
 A modern, responsive online fashion store demo built with a clean architecture — perfect for learning e-commerce front-end + back-end integration or using as a starter template for projects and portfolios.
 
